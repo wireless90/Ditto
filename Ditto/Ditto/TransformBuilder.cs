@@ -18,7 +18,7 @@ namespace Ditto
 
         public ITransformBuilder AddNewTransform(string transformName)
         {
-            _currentTransform = new Transform(transformName);
+            _currentTransform = new Transform(transformName.ToLower());
             transforms.Add(_currentTransform);
 
             return this;

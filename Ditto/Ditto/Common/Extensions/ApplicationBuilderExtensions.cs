@@ -1,4 +1,5 @@
 ﻿using Ditto.Common.Middlewares;
+using Ditto.Common.Spa;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
